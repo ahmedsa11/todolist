@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+.list{
+  background-color: aquamarine;
+  color: black;
+}
+.list p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 10px;
+}
+.list span{
+  display: inline-block;
+  padding: 10px 0;
+  border: 0.3px solid white;
+}
+.list .title{
+  background-color: #ddd;
+  color:black;
+}
+.list span.name,form input[type="text"]{
+  width: 60%;
+}
+.list span.age,form input[type="number"]{
+  width: 30%;
+}
+.list span.action,form input[type="submit"]{
+  width: 10%;
+}
+.list .icon{
+  color: red;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  border: transparent;
+  border: 0.3px solid white;
+  background-color: #ddd;
+}
+input[type="submit"]{
+  border: 0.3px solid white;
+  background-color: #ddd;
+  cursor: pointer;
+}
+.App{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.text-center{
+  text-align: center;
+}
